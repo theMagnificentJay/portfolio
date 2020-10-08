@@ -107,3 +107,14 @@ body {
     border: 2px double rgb(66.6, 66.6, 66.6, .2666);
     border-radius: 10px;
 }
+
+.imgHover {
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+  }
+  
+.imgHover:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
+  }
