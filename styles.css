@@ -109,12 +109,16 @@ body {
 }
 
 .imgHover {
-    transition: filter .5s ease-in-out;
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(100%); /* FF 35+ */
+    transition: filter .666s ease-in-out;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
   
 .imgHover:hover {
-    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(0%); /* FF 35+ */
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
   }
+
+.siteUses{
+    max-width: 150px;
+}
