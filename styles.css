@@ -1,124 +1,130 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(0, 0, 0, 0.85);
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
 .navbar {
-    background-color: black;
-    box-shadow: 0px 10px 25px rgb(0,0,0,.75);
+  background-color: black;
+  box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.75);
 }
 
-.jumbotron{
-    margin-top:15px;
-    background-image: url('./assets/skull.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 400px;
-    background-color: rgb(6.66, 6.66, 6.66);
-    color: white;
-    height: 800px;
-    border-bottom:2px solid rgb(0,0,0,.5);
-    box-shadow: 0px 20px 25px black;
+.jumbotron {
+  margin-top: 15px;
+  background-image: url("./assets/skull.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 400px;
+  background-color: rgb(6.66, 6.66, 6.66);
+  color: white;
+  height: 800px;
+  border-bottom: 2px solid rgb(0, 0, 0, 0.5);
+  box-shadow: 0px 20px 25px black;
 }
-.lead{
-    color: rgba(255, 255, 255, 0.4666);
-    letter-spacing: .666ch;
+.lead {
+  color: rgba(255, 255, 255, 0.4666);
+  letter-spacing: 0.666ch;
 }
 
-.display-4{
-    padding-top:20%;
-    color: white;
+.display-4 {
+  padding-top: 20%;
+  color: white;
 }
 
 .aboutMeContainer .col {
-    display: flexbox;
-    min-width: 400px;
+  display: flexbox;
+  min-width: 400px;
 }
 
 .projContainer .col {
-    display: flexbox;
-    min-width: 300px;
+  display: flexbox;
+  min-width: 300px;
 }
 
 /* Typewriter Animation */
-.typewriter{
-    animation:
-        typewriter 8s infinite steps(23),
-        blink-caret .666s step-end infinite;
-    overflow: hidden;
-    white-space: nowrap;
-    font-family: 'Courier New', Courier, monospace;
-    border-right: 2.8px solid white;
-    line-height: 2ch;
-    width:30ch;
+.typewriter {
+  animation: typewriter 8s infinite steps(23),
+    blink-caret 0.666s step-end infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Courier New", Courier, monospace;
+  border-right: 2.8px solid white;
+  line-height: 2ch;
+  width: 30ch;
 }
 
 @keyframes typewriter {
-    0% {
-        width: 0ch;
-    }
-    45% {
-        width: 36ch;
-    }
-    60% {
-        width: 36ch;
-    }
-    80% {
-        width: 0ch;
-    }
-    100% {
-        width: 0ch;
-    }
+  0% {
+    width: 0ch;
+  }
+  45% {
+    width: 36ch;
+  }
+  60% {
+    width: 36ch;
+  }
+  80% {
+    width: 0ch;
+  }
+  100% {
+    width: 0ch;
+  }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: darkgrey; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: darkgrey;
+  }
 }
 
 /* /Typewriter Animation */
 
-.weOnlyUseDarkModeHere{
-    color: rgb(6.66, 6.66, 6.66, 0.2666);
-    text-align: center;
-    letter-spacing: .666ch;
+.weOnlyUseDarkModeHere {
+  color: rgb(6.66, 6.66, 6.66, 0.2666);
+  text-align: center;
+  letter-spacing: 0.666ch;
 }
 
-.H3Title{
-    text-align: center;
-    color: rgba(255, 255, 255, 0.666);
-    letter-spacing: .666ch;
+.H3Title {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.666);
+  letter-spacing: 0.666ch;
 }
 
-.aboutMeContainer{
-    width: 80%;
-    margin: auto;
+.aboutMeContainer {
+  width: 80%;
+  margin: auto;
 }
 
-.card, .row, .col{
-    padding:10px;
-    margin:10px;
+.card,
+.row,
+.col {
+  padding: 10px;
+  margin: 10px;
 }
 
 .card {
-    background-color: black;
-    color: white;
-    box-shadow: 0px 10px 25px rgb(0,0,0,.75);
-    border: 2px double rgb(66.6, 66.6, 66.6, .2666);
-    border-radius: 10px;
+  background-color: black;
+  color: white;
+  box-shadow: 0px 10px 25px rgb(0, 0, 0, 0.75);
+  border: 2px double rgb(66.6, 66.6, 66.6, 0.2666);
+  border-radius: 10px;
 }
 
 .imgHover {
-    transition: filter .666s ease-in-out;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-  }
-  
-.imgHover:hover {
-    -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-  }
+  transition: filter 0.666s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 
-.siteUses{
-    max-width: 150px;
+.imgHover:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.siteUses {
+  max-width: 150px;
 }
