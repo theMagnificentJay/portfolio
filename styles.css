@@ -128,3 +128,25 @@ body {
 .siteUses {
   max-width: 150px;
 }
+
+.fa-hashtag {
+  color: #6648b1;
+}
+
+.fa-js-square {
+  color: #e54d26;
+}
+
+.fa-html5 {
+  color: red;
+}
+
+.fa-css3-alt {
+  color: cornflowerblue;
+}
+
+.whtTxth6 h6 {
+  color: white;
+  font-style: oblique;
+  padding-top: 5px;
+}
